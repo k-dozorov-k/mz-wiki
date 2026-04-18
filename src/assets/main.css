@@ -1,16 +1,21 @@
 @import url(./variable.css);
 
 body {
+  padding: 1.5rem;
   background-color: var(--main-bg-color);
 }
 
 #app {
-  max-width: 1280px;
+  max-width: 1440px;
   margin: 0 auto;
-  padding: 2rem;
   font-weight: normal;
 }
 
-.search {
-  background-color: var(--second-bg-color);
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 50px;
 }
