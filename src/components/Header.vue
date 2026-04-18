@@ -1,14 +1,11 @@
 <template>
   <header>
     <a href="/mz-wiki/src/App.vue">Logo</a>
-    <Search />
     <div>server-info</div>
   </header>
 </template>
 
-<script setup>
-import Search from './Search.vue'
-</script>
+<script setup></script>
 
 <style scoped>
 header {
@@ -16,5 +13,7 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+
+  margin: auto auto 48px;
 }
 </style>
